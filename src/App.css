@@ -1,7 +1,7 @@
 #root {
   height: 100vh;
+  background-color: #ffc107;
 }
-
 .landing {
   background: url("BG.jpg");
   background-size: cover;
@@ -18,17 +18,36 @@ form {
   border: #000000;
   padding: 20px;
   box-shadow: 5px 5px 21px 0px rgba(0, 0, 0, 0.75);
-  margin-top: 100px;
-  margin-left: auto;
-  margin-right: auto;
   display: flex;
   flex-direction: column;
+  align-self: center;
+  margin-left: auto;
+  margin-right: auto;
   height: auto;
   width: 40%;
+  background-color: #ffecb3;
 }
 .textArea {
   margin: 50px;
   display: flex;
   flex-direction: column;
+  align-items: center;
+}
+.Card {
+  border-radius: 15px;
+  border: #000000;
+  padding: 20px;
+  width: 50%;
+  box-shadow: 5px 5px 21px 0px rgba(0, 0, 0, 0.75);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ffecb3;
+}
+.Container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   align-items: center;
 }
